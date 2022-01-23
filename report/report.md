@@ -11,3 +11,7 @@ First of all, I can start with the graphs and summarize here again;
 **Question 1:** OLS-3 program is helping me working openly
 
 
+![Fig1](../figures/Data3_mid_mentee_1q.png) 
+
+- 65% of the participants answered this question as very good. While 30% said good and only 4% answered as neutral. Although this question was answered with numbers (like out of 5), to be able to make a graph, I transformed that to very good, good and neutral.
+
