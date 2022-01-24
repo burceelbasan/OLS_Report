@@ -1,11 +1,7 @@
 # OLS_Report
 
-### Üç Tane
+In this repository, you can find the analyses that belongs to OLS-3 surveys. This research was performed during OLS-4. 
 
-## İki tane
 
-  - Bir
-  - İki
-  - **Üç**
 
 [Please click here to see the report](/report/report.md)
