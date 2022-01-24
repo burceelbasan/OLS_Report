@@ -79,7 +79,7 @@ First of all, I can start with the graphs and summarize here again;
 
 **Graph 9 // Mentor Post Cohort**
 
-**Question 1 (Multiple Selection, *n=26)**
+**Question 1 (Multiple Selection, *n=26*)**
 
 ![Fig9](../figures/Post-Mentor_%20Question%201.png)
 
