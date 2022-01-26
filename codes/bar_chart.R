@@ -1,4 +1,4 @@
-I used this template for the mid-mentee question 1
+# I used this template for the mid-mentee question 1
 
 # Creating the Columns with number of answers and persentage of answers
 Data3_midRenamed_FirstQ_summary <- Data3_midRenamed_Firstq %>% 
