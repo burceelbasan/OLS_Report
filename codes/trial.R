@@ -5,11 +5,11 @@ Data3_post_mentee_Renamed_1q <- read_xlsx("Data3_post_mentee_Renamed_1q.xlsx")
   Data3_post_mentee_Renamed_1q <-   Data3_post_mentee_Renamed_1q %>%   
     mutate(percent_answers = Responses / 35) 
   View(Data3_post_mentee_Renamed_1q)
-  
+# Creating a Column with Question Numbers
   Data3_post_mentee_Renamed_1q  <-  Data3_post_mentee_Renamed_1q %>%   
     mutate(numbers = c("Q1","Q2","Q3"))
   View(  Data3_post_mentee_Renamed_1q)
-  
+ # For Graph 
   p <-   Data3_post_mentee_Renamed_1q %>% 
     ggplot(aes(x = numbers, y= percent_answers, fill = numbers, label = scales::percent(percent_answers), labels = numbers))+ 
     geom_bar(stat="identity", color="black")+ 
@@ -24,6 +24,7 @@ Data3_post_mentee_Renamed_1q <- read_xlsx("Data3_post_mentee_Renamed_1q.xlsx")
   
   p
   
+  # Creating Labels and Legend Explanations
   p+ scale_fill_discrete(name="Questions",
                          breaks=c("Q1","Q2","Q3"),
                          labels=c("I was able to meet ALL my goals","I was able to meet MOST of my goals","I was able work on my project but only PARTIALLY"))
