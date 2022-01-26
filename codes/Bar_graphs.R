@@ -1,3 +1,4 @@
+# I used this sample template for mid-mentee questions 4,5,8 / mid-mentor question 9/ post-mentee question 1 and post-mentor question 1
 # Reading excel file
 Data3_post_mentee_Renamed_1q <- read_xlsx("Data3_post_mentee_Renamed_1q.xlsx")
   view(Data3_post_mentee_Renamed_1q)
